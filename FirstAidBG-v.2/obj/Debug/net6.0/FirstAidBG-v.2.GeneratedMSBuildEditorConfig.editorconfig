@@ -1,0 +1,168 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FirstAidBG_v._2
+build_property.RootNamespace = FirstAidBG_v._2
+build_property.ProjectDir = D:\MG\diplomna-arhiv\diplomna\FirstAidBG-v.2\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\MG\diplomna-arhiv\diplomna\FirstAidBG-v.2
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Answers/CreateAnswer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zd2Vyc1xDcmVhdGVBbnN3ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Answers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zd2Vyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Answers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zd2Vyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Answers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zd2Vyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Forum/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Forum/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Forum/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Forum/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Forum/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ydW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Home/Secured.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWN1cmVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/InfoPageAidKitContents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmZvUGFnZUFpZEtpdENvbnRlbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/InfoPageBites.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmZvUGFnZUJpdGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/InfoPageBleeding.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmZvUGFnZUJsZWVkaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/InfoPageBrokenBones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmZvUGFnZUJyb2tlbkJvbmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/InfoPageBurns.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmZvUGFnZUJ1cm5zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/InfoPageDisruptionsBreathingBloodstream.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmZvUGFnZURpc3J1cHRpb25zQnJlYXRoaW5nQmxvb2RzdHJlYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/InfoPageElectricity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmZvUGFnZUVsZWN0cmljaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/InfoPageEyes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmZvUGFnZUV5ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/InfoPageFreeze.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmZvUGFnZUZyZWV6ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/InfoPagePoison.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmZvUGFnZVBvaXNvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/InfoPageSunHeat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmZvUGFnZVN1bkhlYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/InfoPageSurgicalWounds.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmZvUGFnZVN1cmdpY2FsV291bmRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/InfoPageUnconscious.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xJbmZvUGFnZVVuY29uc2Npb3VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Info/_SideMenuPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb1xfU2lkZU1lbnVQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Login/ChangeNameForExternalLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ2hhbmdlTmFtZUZvckV4dGVybmFsTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Login/Denied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Register/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MG/diplomna-arhiv/diplomna/FirstAidBG-v.2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pb2wnme777

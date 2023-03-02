@@ -1,0 +1,34 @@
+﻿@model FirstAidBG_v._2.Data.Entities.Answer
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<section style="padding-left:5em; padding-right:5em;">
+<h1>Редактирайте своя отговор</h1>
+
+<h4></h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label  class="control-label"><b>Нов отговор</b></label>
+                <input asp-for="Text" class="form-control" />
+                <span asp-validation-for="Text" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Forum" asp-action="Details" asp-route-id="@Model?.IdForQuestion">Обратно към отговорите</a>
+</div>
+</section>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,56 @@
+﻿@using System.Security.Claims
+@model IEnumerable<FirstAidBG_v._2.Data.Entities.Question>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<section style="padding-left:5em; padding-right:5em;">
+<h1 style="text-align:center">Форум за въпроси по първа помощ</h1>
+
+<p style="text-align:right">
+    <a asp-action="Create">Задайте нов върпос</a>
+</p>
+</section>
+
+<table class="table" >
+    <thead style="padding-left:5em; padding-right:5em;">
+        <tr>
+            <th>
+                Въпрос
+            </th>
+            <th>
+                Потребител
+            </th>
+            <th>
+                Публикуван на
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Text)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DatePublished)
+            </td>
+            
+            <td>                                      
+                <a asp-action="Details" asp-route-id="@item.Id">| Вижте отговорите |</a> 
+                @if(User.Claims.FirstOrDefault(i => i.Type == ClaimTypes.Role)?.Value =="Admin")
+                {
+                   
+                <a asp-action="Delete" asp-route-id="@item.Id"> Изтрий |</a>
+                }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

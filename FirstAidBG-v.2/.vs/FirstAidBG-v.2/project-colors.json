@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0d488893-9454-48da-aab0-f42773f63405": {
+      "ProjectGuid": "0d488893-9454-48da-aab0-f42773f63405",
+      "DisplayName": "FirstAidBG-v.2",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "40240c02-c579-4e5b-a3a4-494015210bd6": {
+      "ProjectGuid": "40240c02-c579-4e5b-a3a4-494015210bd6",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 1
+    },
+    "da6de999-9db8-4c17-8a36-c152aa09b258": {
+      "ProjectGuid": "da6de999-9db8-4c17-8a36-c152aa09b258",
+      "DisplayName": "FirstAidBG-v.2.Data",
+      "ColorIndex": 2
+    },
+    "ee9ab656-76b5-49aa-a2e1-81179f4855fb": {
+      "ProjectGuid": "ee9ab656-76b5-49aa-a2e1-81179f4855fb",
+      "DisplayName": "FirstAidBG-v.2.Data",
+      "ColorIndex": 3
+    },
+    "a43ec53b-f1f9-4e76-a1c8-5684fb611b93": {
+      "ProjectGuid": "a43ec53b-f1f9-4e76-a1c8-5684fb611b93",
+      "DisplayName": "FirstAidBG-v.2.Business",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

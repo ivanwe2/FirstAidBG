@@ -1,0 +1,39 @@
+﻿@using System.Security.Claims
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var name = User.Claims.FirstOrDefault(i => i.Type == ClaimTypes.NameIdentifier)?.Value;
+    
+    var scheme = User.Claims.FirstOrDefault(i => i.Type == ".AuthScheme")?.Value;
+} 
+
+                        
+@if(User.Identity.IsAuthenticated && scheme == "google")
+{
+    var nameGoogle = User.Claims.FirstOrDefault(i => i.Type == ClaimTypes.GivenName)?.Value;
+    <a class=" text-white" asp-area="" asp-controller="Home" asp-action="Secured">Здравейте @nameGoogle </a>
+    
+    <a class="text-white" asp-area="" asp-controller="Login" asp-action="Logout">Изход</a>
+
+}
+else if(User.Identity.IsAuthenticated && scheme == "okta")
+{
+    var nameOkta = User.Identity.Name;//.Claims.FirstOrDefault(i => i.Type == ClaimTypes.)?.Value;
+    <a class=" text-white" asp-area="" asp-controller="Home" asp-action="Secured">Здравейте @nameOkta</a>
+    
+    <a class="text-white" asp-area="" asp-controller="Login" asp-action="Logout">Изход</a>
+}
+else if(User.Identity.IsAuthenticated)
+{
+    <a class=" text-white" asp-area="" asp-controller="Home" asp-action="Secured">Здравейте @name</a>
+    
+    <a class="text-white" asp-area="" asp-controller="Login" asp-action="Logout">Изход</a>
+}
+else
+{
+    <a class="text-white" asp-area="" asp-controller="Register" asp-action="Index">Регистрация </a>
+        
+    <a class=" text-white" asp-area="" asp-controller="Login" asp-action="Logout">Влизане</a>
+
+}

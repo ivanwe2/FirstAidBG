@@ -1,0 +1,39 @@
+﻿@model FirstAidBG_v._2.Data.Entities.AppUser
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Вашият акаут е регистриран!</h1>
+
+<div>
+    <h4>Потребител</h4>
+    <hr />
+    <dl class="row">
+        
+        
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Username)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+       
+    </dl>
+</div>
+<div>
+    
+    <a asp-controller="Login" asp-action="Login">Към логин страница</a>
+</div>

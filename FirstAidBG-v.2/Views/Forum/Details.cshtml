@@ -1,0 +1,109 @@
+﻿@using System.Security.Claims
+@using  FirstAidBG_v._2.Data
+@model FirstAidBG_v._2.Data.Entities.Question
+
+@{
+    ViewData["Title"] = "Details";
+}
+<section style="padding-left:3em; padding-right:3em;">
+<div >
+<h1 >Подробности</h1>
+
+<div >
+    <h4>Отговори</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-1">
+            Автор
+        </dt>
+        <dd class = "col-sm-2">
+            @Html.DisplayFor(model => model.User.Username)
+        </dd>
+        <dt class = "col-sm-1">
+            Въпрос
+        </dt>
+        <dd class = "col-sm-2">
+            @Html.DisplayFor(model => model.Text)
+        </dd>
+        <dt class = "col-sm-1">
+            Качено на
+        </dt>
+        <dd class = "col-sm-2">
+            @Html.DisplayFor(model => model.DatePublished)
+        </dd>
+        <dt class = "col-sm-1">
+                Брой отговори
+        </dt>
+        <dd class = "col-sm-1">
+           @Html.DisplayFor(model => model.Answers.Count)
+        </dd>
+    </dl>
+</div>
+</section>
+<div class="text-center">
+    
+    @if (Model.User.NameIdentifier == User.Claims.FirstOrDefault(i => i.Type == ClaimTypes.NameIdentifier)?.Value)
+    {                 
+    <a asp-action="Edit" asp-route-id="@Model?.Id">| Редактирай </a>
+    }
+    |<a asp-action="Index">Обратно към начало </a> |
+    <a asp-controller="Answers" asp-action="CreateAnswer" asp-route-id="@Model?.Id">Добавете отговор </a>|
+</div>
+</div>
+<table class="table" >
+    <thead  style="padding-left:5em; padding-right:5em;">
+        <tr>
+            <th>
+                Отговор
+            </th>
+            <th>
+                Публикуван на
+            </th>
+            <th >
+             Потребител
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+@foreach (var item in Model.Answers) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Text)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DatePublished)
+            </td>      
+            <td>
+                @Html.DisplayFor(modelItem => item.AppUser.Username)
+            </td>
+            <td>
+                
+                @{
+                        //ApplicationDbContext _context = new ApplicationDbContext(new Microsoft.EntityFrameworkCore.DbContextOptions<ApplicationDbContext>());
+                        //string currentUserN = User.Claims.FirstOrDefault(i => i.Type == ClaimTypes.NameIdentifier)?.Value;
+
+                        //var currentUser = _context.AppUsers.FirstOrDefault(i => i.NameIdentifier == currentUserN).Id;
+
+                if(User.Claims.FirstOrDefault(i => i.Type == ClaimTypes.NameIdentifier)?.Value == item.AppUser.NameIdentifier)
+                {                  
+                <a asp-controller="Answers" asp-action="Edit" asp-route-id="@item.Id">| Редактирай |</a> 
+                }
+                }
+                
+                @if(User.Claims.FirstOrDefault(i => i.Type == ClaimTypes.Role)?.Value =="Admin")
+                {
+                  
+                <a asp-controller="Answers" asp-action="Delete" asp-route-id="@item.Id">| Изтрий |</a>
+                }                
+                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+@if(Model.Answers.Count == 0)
+{
+    <p style="text-align:center;">За този въпрос все още няма публикувани отговори!</p>
+}

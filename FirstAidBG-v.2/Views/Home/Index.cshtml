@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    
+
+</style>
+<section class="homepage">
+
+    <h1 class="display-4">ПЪРВА ДОЛЕКАРСКА ПОМОЩ</h1>
+
+    <div class="clearfix">
+      <div class="box-text" style="background-color:red; color:white;">
+      <p><b>Първата помощ</b> се състои се от поредица от прости, но животоспасяващи медицински техники, които могат да се извършват с минимално оборудване и от хора, 
+        които в общия случай са без специално медицинско образование.
+    <br><a class="align-content-center text-white"  asp-area="" asp-controller="Info" asp-action="Index">Научете как да оказвате първа помощ </a>    
+    </p>
+
+      </div>
+
+      <div class="box" style="background-color:#ccc">
+       <img src="~/PNGs/homepage-man-on-floor.jpg" style="object-fit:cover; width:100%;height:300px; "/>
+      </div>
+    </div>
+
+    <div class="homepage-stats-row" > 
+        <h2 style="font-weight:500; text-align:center;  font-size:3vw;">Статистика свързана с Първата помощ</h2>
+        <p style="text-align:center; font-size:2vw; color:GrayText; font-weight:400;">Данните сочат</p>       
+
+         <div class="homepage-stats-column" style="background-color:indianred;">
+            <p>Приблизително</p>
+            <h3><b>10 на 100</b></h3>
+            <p>от хората, нуждаещи се от помощ, получават такава чак когато пристигне линейка.</p>
+            
+        </div>
+
+        <div class="homepage-stats-column" style="background-color:red;">
+            <p>Според БЧК</p>
+            <h3><b>всеки четвърти</b></h3>            
+            <p>загинал при ПТП, би могло да бъде спасен чрез първа долекарска помощ.</p>
+        </div>
+
+        <div class="homepage-stats-column" style="background-color:darkred;">
+            <p>Близо</p>
+            <h3><b>70%</b></h3>           
+            <p>от хората, получили инфарк, умират преди да получат каквато и да е помощ.</p>
+        </div>
+    </div>
+    
+
+    <div class="text-center">
+
+        <div class="homepage-bg-image"><img  src="~/PNGs/homepage-bg-image.jpg" /> </div>
+
+        <div class="homepage-bg-text">
+        <p class=""><b style=" font-size:10vw;">Човешкият живот няма цена!</b></p>
+        </div>
+
+        <p class="homepage-p-last" >Целта на нашата страница е да ви запознае с животоспасяваща информация.
+         	    <br><a style="color:white; font-weight:bold"  asp-area="" asp-controller="Info" asp-action="Index">Към информационен блок</a>
+        </p>
+     
+    </div>
+</section>
